@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.env
+*.log
+Logs/
+Temp/
+Video/
+Audio/
+Subtitle/
+WhisperModels/
+FFmpeg/
+build/
+dist/
