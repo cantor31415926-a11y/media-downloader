@@ -8,7 +8,7 @@
 
 ## 给普通用户
 
-1. 打开仓库右侧的 [Releases](../../releases)，下载最新版本的 `MediaDownloader-Windows-x64.zip`。
+1. 打开仓库右侧的 [Releases](https://github.com/cantor31415926-a11y/media-downloader/releases)，下载最新版本的 `MediaDownloader-Windows-x64.zip`。
 2. 将压缩包解压到任意文件夹，双击 `MediaDownloader.exe`。
 3. 粘贴公开网页 URL，选择保存位置，点击“批量解析”，然后选择下载内容。
 
