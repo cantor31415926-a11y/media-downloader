@@ -18,7 +18,7 @@ from utils.logger import configure_logger
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="下载您有权访问的公开网页视频、音频和字幕。")
     parser.add_argument("url", nargs="?", help="公开媒体网页 URL（http 或 https）")
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="保存根目录，默认 D:\\MediaDownloader")
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help=f"保存根目录，默认 {DEFAULT_OUTPUT_DIR}")
     parser.add_argument("--ffmpeg", help="ffmpeg.exe 的完整路径；未指定时从 PATH 查找")
     parser.add_argument(
         "--cookies-from-chrome",

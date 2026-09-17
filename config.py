@@ -7,7 +7,9 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-DEFAULT_OUTPUT_DIR = Path(r"D:\MediaDownloader")
+# Keep downloads in a location that exists for every Windows account instead of
+# assuming the computer has a D: drive.
+DEFAULT_OUTPUT_DIR = Path.home() / "Videos" / "MediaDownloader"
 
 
 def find_portable_ffmpeg(output_dir: Path) -> Path | None:
